@@ -9,10 +9,10 @@ import Orders from './pages/Orders'
 
 const MyRoutes = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/React">
             <Routes>
 
-                <Route path='/React' element={<Layout />} >
+                <Route path='/' element={<Layout />} >
                     
                     <Route index element={<Home />} />
                     <Route path='orders' element={<Orders />} />
