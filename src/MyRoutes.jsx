@@ -12,7 +12,7 @@ const MyRoutes = () => {
         <BrowserRouter>
             <Routes>
 
-                <Route path='/' element={<Layout />} >
+                <Route path='/React' element={<Layout />} >
                     
                     <Route index element={<Home />} />
                     <Route path='orders' element={<Orders />} />
